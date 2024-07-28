@@ -1,0 +1,22 @@
+{
+    "employee": [
+        {
+            "img": "/Assets/Ellipse -1.png",
+            "name": "Anurag Maurya",
+            "gender": "Male",
+            "department": "HR",
+            "salary": "20000",
+            "startDate": "29 Oct 2019",
+            "notes": "this is not a software developer but rather an HR"
+        },
+        {
+            "img": "/Assets/Ellipse -2.png",
+            "name": "Akhiles Maurya",
+            "gender": "Male",
+            "department": "HR",
+            "salary": "50000",
+            "startDate": "29 Oct 2019",
+            "notes": "this is not a software developer but rather an HR"
+        }
+    ]
+}
