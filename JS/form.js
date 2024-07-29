@@ -1,4 +1,14 @@
 $(document).ready(() => {
+
+    dateSelect()
+    
+    $("form").submit(function (e) {
+        e.preventDefault()
+        formSubmit()
+    });
+})
+
+function dateSelect(){
     var daySelect = $("#daySelect")
     for (let i = 1; i <= 31; i++) {
         daySelect.append($('<option>', {
@@ -26,13 +36,7 @@ $(document).ready(() => {
         }))
 
     }
-
-    $("form").submit(function (e) {
-        e.preventDefault()
-        formSubmit()
-    });
-})
-
+}
 
 function formSubmit() {
 
@@ -70,8 +74,7 @@ function formSubmit() {
         type:'POST',
         data:toSend,
         success:(data)=>{
-            alert("successfully added")
-
+            window.location.replace("index.html");
         }
     })
  

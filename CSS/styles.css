@@ -77,6 +77,9 @@ a{
     text-decoration: none;
     color: white;
 }
+a[href='index.html']{
+    color:black
+}
 .table-div {
     margin-top: 50px;
     padding-left: 10%;
@@ -132,9 +135,12 @@ tbody {
     width: 150px;
 }
 
-tbody>tr {
+tbody>tr{
     background: #FFFFFF 0% 0% no-repeat padding-box !important;
     border: 1px solid #E3E3E3 !important;
+}
+#input-search,#input:focus{
+    border-radius: 5px;
 }
 .delIcon,.creIcon{
     cursor: pointer;
@@ -157,3 +163,70 @@ td {
     padding-right: 10px;
     border-radius: 28px;
 }
+
+@media only screen and (max-width:812px)  {
+    .startDate-hide{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:812px)  {
+    .startDate-hide{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:599px)  {
+    .salary-hide{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:714px)  {
+    .gender-hide{
+        display: none;
+    }
+    
+} 
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #E9FEA5;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

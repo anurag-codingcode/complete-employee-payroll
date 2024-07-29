@@ -1,23 +1,37 @@
 {
   "employee": [
     {
-      "id": "8eaa",
-      "name": "Umesh Prajapati",
-      "img": "Assets/Ellipse -3.png",
+      "id": "d379",
+      "name": "Priyesh Prajapati",
+      "img": "Assets/Ellipse -2.png",
       "department": [
-        "Finance",
+        "HR",
         "Engineer"
       ],
-      "salary": "30000",
+      "salary": "20000",
       "startDate": "1 Jul 2024",
-      "notes": "From NIT Jamshedpur",
+      "notes": "I am from hyderabad campus",
       "gender": "Male"
     },
     {
-      "id": "cecc",
-      "name": "Priya Patibanda",
-      "img": "Assets/Ellipse -1.png",
+      "id": "81da",
+      "name": "Priyesh Prajapati",
+      "img": "Assets/Ellipse -2.png",
       "department": [
+        "HR",
+        "Engineer"
+      ],
+      "salary": "20000",
+      "startDate": "1 Jul 2024",
+      "notes": "I am from hyderabad campus",
+      "gender": "Female"
+    },
+    {
+      "id": "7f7c",
+      "name": "Priya Prajapati",
+      "img": "Assets/Ellipse -2.png",
+      "department": [
+        "HR",
         "Engineer"
       ],
       "salary": "20000",
