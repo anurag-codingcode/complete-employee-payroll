@@ -1,22 +1,29 @@
 {
-    "employee": [
-        {
-            "img": "/Assets/Ellipse -1.png",
-            "name": "Anurag Maurya",
-            "gender": "Male",
-            "department": "HR",
-            "salary": "20000",
-            "startDate": "29 Oct 2019",
-            "notes": "this is not a software developer but rather an HR"
-        },
-        {
-            "img": "/Assets/Ellipse -2.png",
-            "name": "Akhiles Maurya",
-            "gender": "Male",
-            "department": "HR",
-            "salary": "50000",
-            "startDate": "29 Oct 2019",
-            "notes": "this is not a software developer but rather an HR"
-        }
-    ]
+  "employee": [
+    {
+      "id": "8eaa",
+      "name": "Umesh Prajapati",
+      "img": "Assets/Ellipse -3.png",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "30000",
+      "startDate": "1 Jul 2024",
+      "notes": "From NIT Jamshedpur",
+      "gender": "Male"
+    },
+    {
+      "id": "cecc",
+      "name": "Priya Patibanda",
+      "img": "Assets/Ellipse -1.png",
+      "department": [
+        "Engineer"
+      ],
+      "salary": "20000",
+      "startDate": "1 Jul 2024",
+      "notes": "I am from hyderabad campus",
+      "gender": "Female"
+    }
+  ]
 }

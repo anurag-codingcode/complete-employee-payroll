@@ -98,7 +98,7 @@ form {
     margin-bottom: 30px;
 }
 
-input[type='button'] {
+input[type='button'],input[type='submit'] {
     margin: 12px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
@@ -128,7 +128,7 @@ input {
 }
 
 
-button {
+button,input[type='submit'] {
     width: 250px !important;
     align-items: start !important;
     justify-content: start !important;
@@ -147,4 +147,7 @@ textarea {
     padding-top: 4px;
     
 }
-
+a{
+    text-decoration: none;
+    color:black
+}
