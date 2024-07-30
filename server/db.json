@@ -1,8 +1,7 @@
 {
   "employee": [
     {
-      "id": "d379",
-      "name": "Priyesh Prajapati",
+      "name": "Anurag Maurya",
       "img": "Assets/Ellipse -2.png",
       "department": [
         "HR",
@@ -11,33 +10,21 @@
       "salary": "20000",
       "startDate": "1 Jul 2024",
       "notes": "I am from hyderabad campus",
-      "gender": "Male"
+      "gender": "Male",
+      "id": "17d7"
     },
     {
-      "id": "81da",
-      "name": "Priyesh Prajapati",
+      "name": "Swetha",
       "img": "Assets/Ellipse -2.png",
       "department": [
-        "HR",
-        "Engineer"
+        "Sales",
+        "Others"
       ],
       "salary": "20000",
-      "startDate": "1 Jul 2024",
-      "notes": "I am from hyderabad campus",
-      "gender": "Female"
-    },
-    {
-      "id": "7f7c",
-      "name": "Priya Prajapati",
-      "img": "Assets/Ellipse -2.png",
-      "department": [
-        "HR",
-        "Engineer"
-      ],
-      "salary": "20000",
-      "startDate": "1 Jul 2024",
-      "notes": "I am from hyderabad campus",
-      "gender": "Female"
+      "startDate": "15 Sep 2008",
+      "notes": "",
+      "gender": "Female",
+      "id": "8a94"
     }
   ]
 }
