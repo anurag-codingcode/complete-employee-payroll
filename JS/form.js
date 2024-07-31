@@ -33,14 +33,11 @@ function getFormElements(id) {
             $(`option[value='${year}']`).prop('selected', true)
             $('textarea')[0].value = data.notes
         }
-
+   
     })
-
-
-
-
-
+    
 }
+
 function dateSelect() {
     var daySelect = $("#daySelect")
     for (let i = 1; i <= 31; i++) {

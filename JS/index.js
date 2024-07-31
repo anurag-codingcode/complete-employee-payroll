@@ -16,9 +16,11 @@ $(document).ready(() => {
             type: 'text',
             id: 'input-search',
             style: 'border:none',
+            onkeyup:'someFunction(event)'
 
         });
         $('#search').html(inp)
+        
 
     });
 
@@ -27,7 +29,7 @@ $(document).ready(() => {
         getUser(filterData)
     })
     if(deleted && deleted=='true'){
-        myFunction()
+        showDeletePopUp()
         localStorage.setItem('deleted',false)
     }
 
@@ -35,9 +37,19 @@ $(document).ready(() => {
 
 }
 );
+function someFunction(e) {
+    if (e.key == 'Enter') {
+       
+        var symbol = '<img class="p-2" id="search-icon" src="Assets/search.png" height="50px" width="50px" alt=""></img>';
+        
+        $('#search').html(symbol); // Use html() instead of innerText
+        $('#search').css('width', '77px');
+    }
+}
 
 
-function myFunction() {
+
+function showDeletePopUp() {
     var x = document.getElementById("snackbar");
     x.className = "show";
     setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
