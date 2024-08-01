@@ -77,7 +77,7 @@ a{
     text-decoration: none;
     color: white;
 }
-a[href='index.html']{
+a[href='dashboard.html']{
     color:black
 }
 .table-div {

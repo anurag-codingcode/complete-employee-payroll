@@ -17,7 +17,7 @@ function getFormElements(id) {
         url: "http://localhost:3000/employee/" + id,
         type: 'GET',
         success: (data) => {
-            console.log(data)
+
 
             $('#name')[0].value = data.name
             $(`input[class='form-check-input'][value='${data.img}']`).prop('checked', true)
@@ -113,7 +113,7 @@ function formSubmit() {
         type: method,
         data: toSend,
         success: (data) => {
-            window.location.replace("index.html");
+            window.location.replace("dashboard.html");
         }
     })
 

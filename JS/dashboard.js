@@ -2,8 +2,9 @@
 $(document).ready(() => {
     var tbody = $(tbody)
     const deleted=localStorage.getItem('deleted')
+    localStorage.removeItem('id')
 
-    console.log("dleted value",deleted)
+    
 
 
     getUser('')
@@ -37,10 +38,24 @@ $(document).ready(() => {
 
 }
 );
+function searchIconClick(){
+    
+        click = true
+        $('#search').css('width', '400px');
+        var inp = $('<input>', {
+            type: 'text',
+            id: 'input-search',
+            style: 'border:none',
+            onkeyup:'someFunction(event)'
+
+        });
+        $('#search').html(inp)
+    
+}
 function someFunction(e) {
     if (e.key == 'Enter') {
        
-        var symbol = '<img class="p-2" id="search-icon" src="Assets/search.png" height="50px" width="50px" alt=""></img>';
+        var symbol = $('<img class="p-2" id="search-icon" onclick="searchIconClick()" src="../Assets/search.png" height="50px" width="50px" alt="search icon">');
         
         $('#search').html(symbol); // Use html() instead of innerText
         $('#search').css('width', '77px');
@@ -79,7 +94,7 @@ function getUser(filterData) {
 
                 var td5 = $(`<td class="salary-hide">₹${salary}</td>`)
                 var td6 = $('<td  class="startDate-hide"></td>').text(startDate)
-                var td7 = $(`<td class="icons"><span onclick="delEmployee('${id}')" ><img class="delIcon" src="Assets/delete-black-18dp.svg" height="28px" width="28px" alt=""></span><span onclick="ediEmployee('${id}')" ><img class="creIcon" src="Assets/create-black-18dp.svg" style="margin-left: 50px;" height="28px" width="28px" alt=""></span></td>`)
+                var td7 = $(`<td class="icons"><span onclick="delEmployee('${id}')" ><img class="delIcon" src="../Assets/delete-black-18dp.svg" height="28px" width="28px" alt=""></span><span onclick="ediEmployee('${id}')" ><img class="creIcon" src="../Assets/create-black-18dp.svg" style="margin-left: 50px;" height="28px" width="28px" alt=""></span></td>`)
                 trow.append(td1, td2, td3, td4, td5, td6, td7)
 
                 tbody.append(trow[0])

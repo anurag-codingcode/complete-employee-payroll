@@ -1,56 +1,31 @@
 {
   "employee": [
     {
-      "id": "fd03",
-      "name": "SWWW Maurya",
-      "img": "Assets/Ellipse -2.png",
-      "department": [
-        "HR",
-        "Engineer"
-      ],
-      "salary": "20000",
-      "startDate": "1 Jul 2024",
-      "notes": "I am from hyderabad campus",
-      "gender": "Male"
-    },
-    {
-      "id": "5f96",
       "name": "Anurag",
-      "img": "Assets/Ellipse -2.png",
+      "img": "../Assets/Ellipse -2.png",
       "department": [
         "HR",
-        "Engineer"
+        "Engineer",
+        "Others"
       ],
       "salary": "20000",
       "startDate": "1 Jul 2024",
       "notes": "I am from hyderabad campus",
-      "gender": "Male"
+      "gender": "Male",
+      "id": "5f96"
     },
     {
-      "id": "93f2",
-      "name": "priya",
-      "img": "Assets/Ellipse -2.png",
+      "name": "Priya Patibanda",
+      "img": "../Assets/Ellipse -4.png",
       "department": [
-        "HR",
-        "Engineer"
+        "Engineer",
+        "Others"
       ],
       "salary": "20000",
-      "startDate": "1 Jul 2024",
-      "notes": "I am from hyderabad campus",
-      "gender": "Female"
-    },
-    {
-      "id": "b317",
-      "name": "pragati",
-      "img": "Assets/Ellipse -2.png",
-      "department": [
-        "HR",
-        "Engineer"
-      ],
-      "salary": "20000",
-      "startDate": "1 Jul 2024",
-      "notes": "I am from hyderabad campus",
-      "gender": "Female"
+      "startDate": "15 Apr 2008",
+      "notes": "some bs",
+      "gender": "Female",
+      "id": "33bc"
     }
   ]
 }
